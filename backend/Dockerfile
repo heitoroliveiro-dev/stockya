@@ -1,8 +1,9 @@
-# backend/Dockerfile
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 
 COPY Stockya.Api/Stockya.Api.csproj Stockya.Api/
+COPY Stockya.Api/appsettings.json Stockya.Api/
+COPY Stockya.Api/appsettings.Development.json Stockya.Api/
 RUN dotnet restore Stockya.Api/Stockya.Api.csproj
 
 COPY . .

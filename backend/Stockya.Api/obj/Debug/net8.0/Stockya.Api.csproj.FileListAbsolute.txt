@@ -138,3 +138,4 @@ C:\Projetos\stockya\backend\Stockya.Api\obj\Debug\net8.0\refint\Stockya.Api.dll
 C:\Projetos\stockya\backend\Stockya.Api\obj\Debug\net8.0\Stockya.Api.pdb
 C:\Projetos\stockya\backend\Stockya.Api\obj\Debug\net8.0\Stockya.Api.genruntimeconfig.cache
 C:\Projetos\stockya\backend\Stockya.Api\obj\Debug\net8.0\ref\Stockya.Api.dll
+C:\Projetos\stockya\backend\Stockya.Api\obj\Debug\net8.0\Stockya.Api.sourcelink.json

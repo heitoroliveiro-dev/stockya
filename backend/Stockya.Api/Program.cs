@@ -9,10 +9,14 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddControllers();
 
 // Adiciona o DbContext usando a string de conexão do appsettings
+var connectionString = Environment.GetEnvironmentVariable("STOCKYA_CONNECTION") 
+    ?? builder.Configuration.GetConnectionString("DefaultConnection");
+
 builder.Services.AddDbContext<StockyaDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+    options.UseSqlServer(connectionString));
 
 var app = builder.Build();
 
@@ -41,6 +45,7 @@ app.MapGet("/weatherforecast", () =>
     return forecast;
 })
 .WithName("GetWeatherForecast");
+app.MapControllers();
 
 app.Run();
 

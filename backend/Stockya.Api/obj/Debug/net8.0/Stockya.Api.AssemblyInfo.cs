@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Stockya.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cf0b4b7ddfc9097c692fda8b282d0b5e4b18dbae")]
 [assembly: System.Reflection.AssemblyProductAttribute("Stockya.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Stockya.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

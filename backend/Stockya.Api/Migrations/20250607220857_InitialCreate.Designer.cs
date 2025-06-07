@@ -12,7 +12,7 @@ using Stockya.Api.Data;
 namespace Stockya.Api.Migrations
 {
     [DbContext(typeof(StockyaDbContext))]
-    [Migration("20250607012933_InitialCreate")]
+    [Migration("20250607220857_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />

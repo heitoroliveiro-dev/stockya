@@ -24,9 +24,8 @@ services:
     depends_on:
       - db
     environment:
-      - DB_HOST=db
-      - DB_NAME=stockya_db
-      - DB_SA_PASSWORD=Stockya@123456
+      - ASPNETCORE_ENVIRONMENT=Development
+      - STOCKYA_CONNECTION=Server=db,1433;Database=stockya_db;User Id=sa;Password=Stockya@123456;TrustServerCertificate=True;
 
 volumes:
   mssql_data:
