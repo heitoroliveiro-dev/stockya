@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "cUlG+Q91/BZqrdcFyL9gzvUzaMYwciQM7zTRW9ubSg0=",
+  "Source": "Stockya.Api",
+  "BasePath": "_content/Stockya.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
